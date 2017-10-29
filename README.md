@@ -14,6 +14,7 @@
 				+ 1 + "&pageSize=10";
 		String string = a(str2);
 		System.out.println("http://i.hzpt.edu.cn/dcp/service?action=" + string);
+		//其他的各种API.我就不一一搜索.自行去分析接口吧.
 	}
 
 	public static String a(String paramString) {
