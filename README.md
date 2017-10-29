@@ -1,9 +1,14 @@
 # dight_HZPT
 数字杭科的API算法
-public static void main(String[] args) {
+
+
+
+
+	public static void main(String[] args) {
 		//用户信息
-		String str = "method=checkUserLoginIFS&idNumber=" + 2015002545 + "&UserPwd=" + "18268858608" + "&logonIP="
+		String str = "method=checkUserLoginIFS&idNumber=" + 2015002545 + "&UserPwd=" + "********" + "&logonIP="
 				+ "115.193.237.242";
+		//logonIP可以随机.反正是不判断的
 		//用户盒子
 		String str2 = "method=getMessageInBoxList&pageNo=" + 1 + "&userId=" + 2015002545 + "&idNumber="
 				+ 1 + "&pageSize=10";
